@@ -1,7 +1,8 @@
 body {
     background-image: url("burritos.jpg");
     background-size: cover;
-    font-family: 'Open Sans', Cantarell, Roboto, 'Helvetica Neue', Oxygen, BlinkMacSystemFont, -apple-system, 'Segoe UI', Ubuntu, sans-serif;
+    background-position: 50%;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif, ;
     font-weight: bold;
     text-align: center;
     text-shadow: 0 0 3px white;
@@ -39,7 +40,12 @@ button {
     background: brown;
 }
 
-div {
+.container {
     max-width: 400px;
-    margin: 0 auto;
+    height: 100vh;
+    margin: auto;
+}
+
+#save-el {
+    font-weight: bold;
 }
